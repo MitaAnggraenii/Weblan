@@ -1,0 +1,48 @@
+CRITICAL - 2021-11-24 16:20:58 --> Undefined index: id
+#0 C:\xampp\htdocs\sirsCoba\app\Views\dokter\view_dokter.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('dokter/view_dok...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(14): view('dokter/view_dok...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-24 16:35:26 --> Undefined index: jadwal_praktek_dokter
+#0 C:\xampp\htdocs\sirsCoba\app\Views\dokter\view_dokter.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('dokter/view_dok...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(14): view('dokter/view_dok...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-24 16:42:22 --> Undefined index: jadwal_praktek_dokter
+#0 C:\xampp\htdocs\sirsCoba\app\Views\dokter\view_dokter.php(159): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 159, Array)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('dokter/view_dok...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(14): view('dokter/view_dok...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-24 16:45:23 --> Undefined variable: post
+#0 C:\xampp\htdocs\sirsCoba\app\Views\dokter\view_dokter.php(161): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 161, Array)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('dokter/view_dok...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(14): view('dokter/view_dok...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

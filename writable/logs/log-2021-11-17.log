@@ -1,0 +1,4 @@
+ERROR - 2021-11-17 22:31:16 --> Table 'dokter' already exists
+ERROR - 2021-11-17 22:33:48 --> Table 'dokter' already exists
+ERROR - 2021-11-17 22:35:04 --> Table 'pasien' already exists
+ERROR - 2021-11-17 22:36:43 --> Table 'pasien' already exists

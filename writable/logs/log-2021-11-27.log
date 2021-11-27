@@ -1,0 +1,48 @@
+ERROR - 2021-11-27 07:00:27 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-11-27 07:00:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\sirsCoba\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\sirsCoba\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\sirsCoba\app\Models\Dokter_model.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(12): App\Models\Dokter_model->getDokter()
+#4 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->index()
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-27 07:06:36 --> Undefined property: App\Controllers\Dokter::$dokter
+#0 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->delete('5')
+#2 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#3 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-27 07:11:57 --> Undefined property: App\Controllers\Dokter::$dokter
+#0 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->delete('5')
+#2 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#3 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-27 07:14:28 --> Undefined property: App\Controllers\Dokter::$model
+#0 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->delete('5')
+#2 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#3 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-27 07:15:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\sirsCoba\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\sirsCoba\system\Model.php(333): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\sirsCoba\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#3 C:\xampp\htdocs\sirsCoba\app\Controllers\Dokter.php(40): CodeIgniter\BaseModel->delete(Array)
+#4 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Dokter->delete('5')
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dokter))
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

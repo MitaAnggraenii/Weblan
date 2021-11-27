@@ -1,0 +1,62 @@
+CRITICAL - 2021-11-26 07:38:22 --> Undefined array key "idrawat"
+#0 C:\xampp\htdocs\sirsCoba\app\Views\transaksi\data_rawatinap.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('transaksi/data_...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Rawatinap.php(17): view('transaksi/data_...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Rawatinap->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rawatinap))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-26 07:41:57 --> Undefined array key "nama_pasien"
+#0 C:\xampp\htdocs\sirsCoba\app\Views\transaksi\data_rawatinap.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('transaksi/data_...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Rawatinap.php(17): view('transaksi/data_...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Rawatinap->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rawatinap))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-11-26 08:03:00 --> Column 'id_dokter' cannot be null
+CRITICAL - 2021-11-26 08:03:00 --> Column 'id_dokter' cannot be null
+#0 C:\xampp\htdocs\sirsCoba\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ra...', 0)
+#1 C:\xampp\htdocs\sirsCoba\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ra...')
+#2 C:\xampp\htdocs\sirsCoba\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ra...')
+#3 C:\xampp\htdocs\sirsCoba\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ra...', Array, false)
+#4 C:\xampp\htdocs\sirsCoba\app\Models\Rawatinap_model.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sirsCoba\app\Controllers\Rawatinap.php(43): App\Models\Rawatinap_model->saveRawatinap(Array)
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Rawatinap->simpan()
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rawatinap))
+#8 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-11-26 08:03:38 --> Undefined array key "nama_pasien"
+#0 C:\xampp\htdocs\sirsCoba\app\Views\transaksi\data_rawatinap.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('transaksi/data_...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Rawatinap.php(17): view('transaksi/data_...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Rawatinap->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rawatinap))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-26 08:05:35 --> Undefined array key "id_rawatinap"
+#0 C:\xampp\htdocs\sirsCoba\app\Views\transaksi\data_rawatinap.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\sirsCoba\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sirsCoba\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sirsCoba\system\Common.php(1097): CodeIgniter\View\View->render('transaksi/data_...', Array, true)
+#4 C:\xampp\htdocs\sirsCoba\app\Controllers\Rawatinap.php(17): view('transaksi/data_...', Array)
+#5 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(824): App\Controllers\Rawatinap->index()
+#6 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rawatinap))
+#7 C:\xampp\htdocs\sirsCoba\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sirsCoba\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sirsCoba\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
